@@ -1,0 +1,16 @@
+/* =============
+    section-1
+============= */
+
+.section-1{
+
+    .photo-slide{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 2fr;
+        grid-template-areas: 
+                            "photo1 photo2"
+                            "photo3"
+                            "photo3";
+    }
+}

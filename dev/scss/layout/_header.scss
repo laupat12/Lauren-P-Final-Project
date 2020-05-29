@@ -1,3 +1,64 @@
 /* =============
     Header
 ============= */
+
+header {
+    text-decoration: black;
+    
+    
+    
+    
+   .nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "home prod recipes about...cart";
+
+     
+    .home{
+        background-color: white;
+        margin: 0 auto;
+        padding: 10px 20px;
+        font-family: tahoma, sans-serif;
+        text-decoration: rgb(77, 77, 77);
+        box-shadow: 2px 2px lightgray;
+        
+    }
+
+    .prod{
+        background-color: white;
+        margin: 0 auto;
+        padding: 10px 20px;
+        font-family: tahoma, sans-serif;
+        text-decoration: rgb(77, 77, 77);
+        box-shadow: 2px 2px lightgray;
+    }
+
+    .recipes{
+        background-color: white;
+        margin: 0 auto;
+        padding: 10px 20px;
+        font-family: tahoma, sans-serif;
+        text-decoration: rgb(77, 77, 77);
+        box-shadow: 2px 2px lightgray;
+    }
+
+    .about{
+        background-color: rgb(175, 216, 175);
+        margin: 0 auto;
+        padding: 10px 20px;
+        font-family: tahoma, sans-serif;
+        text-decoration: rgb(77, 77, 77);
+        box-shadow: 2px 2px lightgray;
+    }
+
+    .cart{
+        background-color: white;
+        margin: 0 auto;
+        padding: 10px 20px;
+        font-family: tahoma, sans-serif;
+        text-decoration: rgb(77, 77, 77);
+        box-shadow: 2px 2px lightgray;
+    }
+   }
+
+}
