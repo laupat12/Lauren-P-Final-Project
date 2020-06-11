@@ -1,3 +1,65 @@
 /* =============
     Footer
 ============= */
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: '..left logo right..';
+    margin-bottom: 70px;
+    
+    color: #5C5C5C;
+    
+
+    #left-info{
+        text-align: right;
+        font-family: 'Source Sans Pro';
+        margin-top: 20px;
+        margin-right: -40px;
+        h1{
+            font-size: 24px;
+        }
+        li{
+            font-size: 14px;
+            list-style: none;
+            margin-bottom: 5px;
+        }
+
+    }
+
+    #logo{
+        margin-left: 70px;
+        img{
+            height: 250px;
+            
+            
+        }
+    }
+
+    #right-info{
+        margin-top: 50px;
+        font-family: 'Source Sans Pro';
+        li{
+            list-style: none;
+            margin-bottom: 10px;
+            margin-left: -45px;
+        }
+        img{
+            width: 40px;
+        }
+    }
+
+    
+}
+
+#left-info{
+    grid-area: left;
+   
+}
+
+#logo{
+    grid-area: logo;
+}
+
+#right-info{
+    grid-area: right;
+}

@@ -2,15 +2,61 @@
     section-1
 ============= */
 
-.section-1{
+#section-1{
+    font-size: 60px;
+    font-family: 'Lemon Milk';
+    color: #ADC1A7;
+    width:1500px;
+    
+    
+    #photo-slide{
+        margin-left: 100px;
+        margin-top: 10px;
+        
+        zoom:140%;
+        display: grid; 
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 10px;
+        grid-template-areas: "photo1 photo2"
+                             "photo1 photo3";
+        
 
-    .photo-slide{
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 2fr;
-        grid-template-areas: 
-                            "photo1 photo2"
-                            "photo3"
-                            "photo3";
+     
+    }
+
+    
+
+
+
+    .photo1{
+        grid-area: photo1;
+        background-image: url(/Users/laurenpatrice/Documents/GitHub/Lauren-P-Final-Project/deploy/img/section-1/spices.png);
+        object-fit: cover;
+        
+        
+    }
+    .photo2{
+        grid-area: photo2;
+        background-image: url(/Users/laurenpatrice/Documents/GitHub/Lauren-P-Final-Project/deploy/img/section-1/chives.png);
+        height: 245px;
+        width:433px;
+        
+    }
+    .photo3{
+        grid-area: photo3;
+        background-image: url(/Users/laurenpatrice/Documents/GitHub/Lauren-P-Final-Project/deploy/img/section-1/morespices.png);
+        height:245px;
+        width: 433px;
     }
 }
+
+
+#about-us{
+    transform: rotate(90deg);
+    margin-left: -1300px;
+    margin-top: 1040px;
+}
+
+
+
+    

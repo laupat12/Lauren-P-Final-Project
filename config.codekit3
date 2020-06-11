@@ -19,6 +19,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/footer/download copy.png": {
+		"ft": 32768,
+		"iS": 3107,
+		"oA": 0,
+		"oAP": "/deploy/img/footer/download copy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/footer/download-1.png": {
 		"ft": 32768,
 		"iS": 1620,
@@ -30,20 +41,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/footer/download-2.png": {
-		"ft": 32768,
-		"iS": 3928,
-		"oA": 0,
-		"oAP": "/deploy/img/footer/download-2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/deploy/img/footer/download.png": {
 		"ft": 32768,
-		"iS": 2553,
+		"iS": 1961,
 		"oA": 0,
 		"oAP": "/deploy/img/footer/download.png",
 		"oF": 0,
@@ -63,92 +63,103 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-1/ava-sol-95NChp4S370-unsplash.jpg": {
-		"ft": 16384,
-		"iS": 1246770,
-		"jF": 0,
+	"/deploy/img/section-1/chives.png": {
+		"ft": 32768,
+		"iS": 234636,
 		"oA": 0,
-		"oAP": "/deploy/img/section-1/ava-sol-95NChp4S370-unsplash.jpg",
+		"oAP": "/deploy/img/section-1/chives.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-1/hanne-hoogendam-qz-bifE4m88-unsplash.jpg": {
-		"ft": 16384,
-		"iS": 1423916,
-		"jF": 0,
+	"/deploy/img/section-1/morespices.png": {
+		"ft": 32768,
+		"iS": 253806,
 		"oA": 0,
-		"oAP": "/deploy/img/section-1/hanne-hoogendam-qz-bifE4m88-unsplash.jpg",
+		"oAP": "/deploy/img/section-1/morespices.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-1/paolo-bendandi-VVe3zOZM88E-unsplash (1).jpg": {
-		"ft": 16384,
-		"iS": 4620340,
-		"jF": 0,
+	"/deploy/img/section-1/spices.png": {
+		"ft": 32768,
+		"iS": 584375,
 		"oA": 0,
-		"oAP": "/deploy/img/section-1/paolo-bendandi-VVe3zOZM88E-unsplash (1).jpg",
+		"oAP": "/deploy/img/section-1/spices.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-3/Flowers.jpg": {
-		"ft": 16384,
-		"iS": 438824,
-		"jF": 0,
+	"/deploy/img/section-2/flower1.png": {
+		"ft": 32768,
+		"iS": 77706,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/Flowers.jpg",
+		"oAP": "/deploy/img/section-2/flower1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-3/jack-finnigan-rriAI0nhcbc-unsplash.jpg": {
-		"ft": 16384,
-		"iS": 750785,
-		"jF": 0,
+	"/deploy/img/section-3/flower2.png": {
+		"ft": 32768,
+		"iS": 42010,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/jack-finnigan-rriAI0nhcbc-unsplash.jpg",
+		"oAP": "/deploy/img/section-3/flower2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-3/kreated-media-0fN7Fxv1eWA-unsplash.jpg": {
-		"ft": 16384,
-		"iS": 311232,
-		"jF": 0,
+	"/deploy/img/section-3/Picture Copy 2.png": {
+		"ft": 32768,
+		"iS": 31517,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/kreated-media-0fN7Fxv1eWA-unsplash.jpg",
+		"oAP": "/deploy/img/section-3/Picture Copy 2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-3/robert-godwin-cdksyTqEXzo-unsplash.jpg": {
-		"ft": 16384,
-		"iS": 1644214,
-		"jF": 0,
+	"/deploy/img/section-3/Picture Copy 3.png": {
+		"ft": 32768,
+		"iS": 43551,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/robert-godwin-cdksyTqEXzo-unsplash.jpg",
+		"oAP": "/deploy/img/section-3/Picture Copy 3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-3/victoria-volkova-5tQj1sy6ozE-unsplash.jpg": {
-		"ft": 16384,
-		"iS": 2840652,
-		"jF": 0,
+	"/deploy/img/section-3/Picture Copy.png": {
+		"ft": 32768,
+		"iS": 78151,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/victoria-volkova-5tQj1sy6ozE-unsplash.jpg",
+		"oAP": "/deploy/img/section-3/Picture Copy.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section-3/Picture.png": {
+		"ft": 32768,
+		"iS": 53565,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/Picture.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/index.html": {

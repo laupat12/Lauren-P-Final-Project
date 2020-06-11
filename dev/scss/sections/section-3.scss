@@ -1,0 +1,151 @@
+.section-3 {
+
+    height:1600px;
+    width: 1400px;
+    background-image: url(/Users/laurenpatrice/Documents/GitHub/Lauren-P-Final-Project/deploy/img/section-3/flower2.png);
+    background-repeat: no-repeat;
+    p{
+      font-family: 'Source Sans Pro';
+      font-size: 14px;
+    }
+    h1{
+      font-size: 24px;
+      font-family: 'Lemon Milk';
+    }
+    h2{
+      font-family: 'Source Sans Pro';
+      font-size: 16px;
+    }
+
+    .text1{
+      background-color: #FAB838;
+      padding: 20px 20px;
+      
+    }
+    .text2{
+      background-color: #FAB838;
+      padding: 20px 20px;
+      padding-left: 30px;
+      
+    }
+    .text3{
+      background-color: #FAB838;
+      padding: 20px 20px;
+    }
+    .text4{
+      background-color: #FAB838;
+      padding: 20px 20px;
+      padding-left: 30px;
+      
+    }
+    
+    
+    .right1{
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "image1 right1";
+    margin-bottom: 100px;
+    
+    
+    
+
+    .image1{
+      grid-area: image1;
+      margin-left: 100px;
+      margin-top:25px;
+    }
+    .right1{
+      grid-area: right1;
+      
+    }
+    }
+
+    .left1{
+      
+      display:grid;
+      grid-template-columns: 70% 30%;
+      grid-template-areas: "left1 image2";
+      margin-right: 20px;
+      margin-bottom: 100px;
+      
+
+
+      .image2{
+        grid-area: image2;
+        margin-left: 100px;
+        margin-top: 35px;
+      }
+      .left1{
+        grid-area: left1;
+        
+      }
+    }
+    .right2{
+      padding: 20px 0;
+      display: grid;
+      grid-template-columns: 30% 70%;
+      grid-template-areas: "image3 right2";
+      margin-bottom: 100px;
+      
+
+      .image3{
+        grid-area: image3 ;
+        margin-left: 100px;
+        margin-top: 25px;
+      }
+      .right2{
+        grid-area: right2;
+      }
+      }
+    
+  
+    .left2{
+        
+        display:grid;
+        grid-template-columns: 70% 30%;
+        grid-template-areas: "left2 image4";
+        
+
+        .image4{
+          grid-area: image4;
+          margin-left: 100px;
+          
+          margin-top: 20px;
+        }
+        .left2{
+          grid-area: left2;
+        }
+      }
+
+  .right1{
+    grid-area: right1;
+  }  
+  
+  .left1{
+    grid-area: left1;
+  }
+
+  .right2{
+    grid-area: right2;
+  }
+
+  .left2{
+    grid-area: left2;
+  }
+
+
+
+
+
+      
+    
+  
+
+}
+  
+    
+  
+  
+  
+  

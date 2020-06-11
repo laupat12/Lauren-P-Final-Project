@@ -2,63 +2,117 @@
     Header
 ============= */
 
+
 header {
     text-decoration: black;
-    
+
+    @include sm {
+        grid-template-columns: auto;
+        grid-template-areas: "home prod";
+    }
     
     
     
    .nav{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas: "home prod recipes about...cart";
+        
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 15px;
+        grid-template-areas:"home prod recipes about       cart";
+        margin-left: 150px;
+        margin-top: 40px;
+        font-size: 21px;
+        color: #5C5C5C;
+        
 
      
     .home{
-        background-color: white;
-        margin: 0 auto;
-        padding: 10px 20px;
-        font-family: tahoma, sans-serif;
+        background-color: rgb(247, 243, 243);
+        text-align: center;
+        padding: 15px 10px;
+        font-family: 'Source Sans Pro';
         text-decoration: rgb(77, 77, 77);
         box-shadow: 2px 2px lightgray;
+        
         
     }
 
     .prod{
-        background-color: white;
-        margin: 0 auto;
-        padding: 10px 20px;
-        font-family: tahoma, sans-serif;
+        background-color: rgb(247, 243, 243);
+        text-align: center;
+        padding: 15px 10px;
+        font-family:'Source Sans Pro';
         text-decoration: rgb(77, 77, 77);
         box-shadow: 2px 2px lightgray;
     }
 
     .recipes{
-        background-color: white;
-        margin: 0 auto;
-        padding: 10px 20px;
-        font-family: tahoma, sans-serif;
+        background-color:  rgb(247, 243, 243);
+        text-align: center;
+        padding: 15px 10px;
+        font-family: 'Source Sans Pro';
         text-decoration: rgb(77, 77, 77);
         box-shadow: 2px 2px lightgray;
     }
 
     .about{
-        background-color: rgb(175, 216, 175);
-        margin: 0 auto;
-        padding: 10px 20px;
-        font-family: tahoma, sans-serif;
+        background-color:#ADC1A7;
+        text-align: center;
+        padding: 15px 10px;
+        font-family: 'Source Sans Pro';
         text-decoration: rgb(77, 77, 77);
         box-shadow: 2px 2px lightgray;
     }
 
     .cart{
-        background-color: white;
-        margin: 0 auto;
-        padding: 10px 20px;
-        font-family: tahoma, sans-serif;
+        background-color:   rgb(247, 243, 243);
+        text-align: center;
+        padding: 15px 10px;
+        font-family: 'Source Sans Pro';
         text-decoration: rgb(77, 77, 77);
         box-shadow: 2px 2px lightgray;
+        
     }
+   }
+
+   .home{
+       grid-area: home;
+   }
+
+   .prod{
+       grid-area: prod;
+   }
+
+   .recipes{
+       grid-area: recipes;
+   }
+
+   .about{
+       grid-area: about;
+   }
+
+   .cart{
+       grid-area: cart;
+   }
+
+   .home:hover{
+       background-color: #ADC1A7;
+   }
+
+   .prod:hover{
+       background-color: #ADC1A7;
+   }
+
+   .recipes:hover{
+       background-color: #ADC1A7;
+   }
+
+   .about:hover{
+       background-color: white;
+   }
+
+   .cart:hover{
+       background-color: #ADC1A7;
    }
 
 }

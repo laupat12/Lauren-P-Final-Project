@@ -346,54 +346,250 @@ textarea {
 ============= */
 header {
   text-decoration: black; }
+  @media (min-width: 576px) {
+    header {
+      grid-template-columns: auto;
+      grid-template-areas: "home prod"; } }
   header .nav {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "home prod recipes about...cart"; }
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas: "home prod recipes about       cart";
+    margin-left: 150px;
+    margin-top: 40px;
+    font-size: 21px;
+    color: #5C5C5C; }
     header .nav .home {
-      background-color: white;
-      margin: 0 auto;
-      padding: 10px 20px;
-      font-family: tahoma, sans-serif;
+      background-color: #f7f3f3;
+      text-align: center;
+      padding: 15px 10px;
+      font-family: 'Source Sans Pro';
       text-decoration: #4d4d4d;
       box-shadow: 2px 2px lightgray; }
     header .nav .prod {
-      background-color: white;
-      margin: 0 auto;
-      padding: 10px 20px;
-      font-family: tahoma, sans-serif;
+      background-color: #f7f3f3;
+      text-align: center;
+      padding: 15px 10px;
+      font-family: 'Source Sans Pro';
       text-decoration: #4d4d4d;
       box-shadow: 2px 2px lightgray; }
     header .nav .recipes {
-      background-color: white;
-      margin: 0 auto;
-      padding: 10px 20px;
-      font-family: tahoma, sans-serif;
+      background-color: #f7f3f3;
+      text-align: center;
+      padding: 15px 10px;
+      font-family: 'Source Sans Pro';
       text-decoration: #4d4d4d;
       box-shadow: 2px 2px lightgray; }
     header .nav .about {
-      background-color: #afd8af;
-      margin: 0 auto;
-      padding: 10px 20px;
-      font-family: tahoma, sans-serif;
+      background-color: #ADC1A7;
+      text-align: center;
+      padding: 15px 10px;
+      font-family: 'Source Sans Pro';
       text-decoration: #4d4d4d;
       box-shadow: 2px 2px lightgray; }
     header .nav .cart {
-      background-color: white;
-      margin: 0 auto;
-      padding: 10px 20px;
-      font-family: tahoma, sans-serif;
+      background-color: #f7f3f3;
+      text-align: center;
+      padding: 15px 10px;
+      font-family: 'Source Sans Pro';
       text-decoration: #4d4d4d;
       box-shadow: 2px 2px lightgray; }
+  header .home {
+    grid-area: home; }
+  header .prod {
+    grid-area: prod; }
+  header .recipes {
+    grid-area: recipes; }
+  header .about {
+    grid-area: about; }
+  header .cart {
+    grid-area: cart; }
+  header .home:hover {
+    background-color: #ADC1A7; }
+  header .prod:hover {
+    background-color: #ADC1A7; }
+  header .recipes:hover {
+    background-color: #ADC1A7; }
+  header .about:hover {
+    background-color: white; }
+  header .cart:hover {
+    background-color: #ADC1A7; }
 
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: '..left logo right..';
+  margin-bottom: 70px;
+  color: #5C5C5C; }
+  footer #left-info {
+    text-align: right;
+    font-family: 'Source Sans Pro';
+    margin-top: 20px;
+    margin-right: -40px; }
+    footer #left-info h1 {
+      font-size: 24px; }
+    footer #left-info li {
+      font-size: 14px;
+      list-style: none;
+      margin-bottom: 5px; }
+  footer #logo {
+    margin-left: 70px; }
+    footer #logo img {
+      height: 250px; }
+  footer #right-info {
+    margin-top: 50px;
+    font-family: 'Source Sans Pro'; }
+    footer #right-info li {
+      list-style: none;
+      margin-bottom: 10px;
+      margin-left: -45px; }
+    footer #right-info img {
+      width: 40px; }
+
+#left-info {
+  grid-area: left; }
+
+#logo {
+  grid-area: logo; }
+
+#right-info {
+  grid-area: right; }
+
 /* =============
     section-1
 ============= */
-.section-1 .photo-slide {
+#section-1 {
+  font-size: 60px;
+  font-family: 'Lemon Milk';
+  color: #ADC1A7;
+  width: 1500px; }
+  #section-1 #photo-slide {
+    margin-left: 100px;
+    margin-top: 10px;
+    zoom: 140%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas: "photo1 photo2" "photo1 photo3"; }
+  #section-1 .photo1 {
+    grid-area: photo1;
+    background-image: url(/Users/laurenpatrice/Documents/GitHub/Lauren-P-Final-Project/deploy/img/section-1/spices.png);
+    object-fit: cover; }
+  #section-1 .photo2 {
+    grid-area: photo2;
+    background-image: url(/Users/laurenpatrice/Documents/GitHub/Lauren-P-Final-Project/deploy/img/section-1/chives.png);
+    height: 245px;
+    width: 433px; }
+  #section-1 .photo3 {
+    grid-area: photo3;
+    background-image: url(/Users/laurenpatrice/Documents/GitHub/Lauren-P-Final-Project/deploy/img/section-1/morespices.png);
+    height: 245px;
+    width: 433px; }
+
+#about-us {
+  transform: rotate(90deg);
+  margin-left: -1300px;
+  margin-top: 1040px; }
+
+#section-2 {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 2fr;
-  grid-template-areas: "photo1 photo2" "photo3" "photo3"; }
+  padding: 200px 100px;
+  text-align: left;
+  line-height: 1.7;
+  font-family: 'Source Sans Pro';
+  color: #5C5C5C;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-image: url(/Users/laurenpatrice/Documents/GitHub/Lauren-P-Final-Project/deploy/img/section-2/flower1.png);
+  background-repeat: no-repeat;
+  margin-top: -1200px; }
+
+h1 {
+  font-size: 48px;
+  font-family: 'Lemon Milk'; }
+
+.section-3 {
+  height: 1600px;
+  width: 1400px;
+  background-image: url(/Users/laurenpatrice/Documents/GitHub/Lauren-P-Final-Project/deploy/img/section-3/flower2.png);
+  background-repeat: no-repeat; }
+  .section-3 p {
+    font-family: 'Source Sans Pro';
+    font-size: 14px; }
+  .section-3 h1 {
+    font-size: 24px;
+    font-family: 'Lemon Milk'; }
+  .section-3 h2 {
+    font-family: 'Source Sans Pro';
+    font-size: 16px; }
+  .section-3 .text1 {
+    background-color: #FAB838;
+    padding: 20px 20px; }
+  .section-3 .text2 {
+    background-color: #FAB838;
+    padding: 20px 20px;
+    padding-left: 30px; }
+  .section-3 .text3 {
+    background-color: #FAB838;
+    padding: 20px 20px; }
+  .section-3 .text4 {
+    background-color: #FAB838;
+    padding: 20px 20px;
+    padding-left: 30px; }
+  .section-3 .right1 {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "image1 right1";
+    margin-bottom: 100px; }
+    .section-3 .right1 .image1 {
+      grid-area: image1;
+      margin-left: 100px;
+      margin-top: 25px; }
+    .section-3 .right1 .right1 {
+      grid-area: right1; }
+  .section-3 .left1 {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-areas: "left1 image2";
+    margin-right: 20px;
+    margin-bottom: 100px; }
+    .section-3 .left1 .image2 {
+      grid-area: image2;
+      margin-left: 100px;
+      margin-top: 35px; }
+    .section-3 .left1 .left1 {
+      grid-area: left1; }
+  .section-3 .right2 {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "image3 right2";
+    margin-bottom: 100px; }
+    .section-3 .right2 .image3 {
+      grid-area: image3;
+      margin-left: 100px;
+      margin-top: 25px; }
+    .section-3 .right2 .right2 {
+      grid-area: right2; }
+  .section-3 .left2 {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-areas: "left2 image4"; }
+    .section-3 .left2 .image4 {
+      grid-area: image4;
+      margin-left: 100px;
+      margin-top: 20px; }
+    .section-3 .left2 .left2 {
+      grid-area: left2; }
+  .section-3 .right1 {
+    grid-area: right1; }
+  .section-3 .left1 {
+    grid-area: left1; }
+  .section-3 .right2 {
+    grid-area: right2; }
+  .section-3 .left2 {
+    grid-area: left2; }
